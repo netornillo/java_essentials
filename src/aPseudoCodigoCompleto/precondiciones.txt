@@ -1,0 +1,18 @@
+Precondiciones.
+Ya se tiene la informacion de la  imagen y del link
+Ya se tiene la información del usr name, password y login button.
+login exitoso.
+
+Pasos a seguir:
+
+1.- Esperar a que se cargue la imagen Frnas
+2.- Esperar a que se crgue el link de login
+3.- Dar clic en el boto login
+4.- Esperar a que se cargen los campos username pass y boton login
+5.- ingresar username
+6.- Ingresar password
+7.- Dar clic en el boton de Login
+8.- Esperar a que se muestre el mensaje de exito
+9.- Validar el mensaje de exito
+10.- Esperar a que se refresquen los elementos de la lista
+10.- Validar que la canción se haya agregado

@@ -1,0 +1,25 @@
+Funciones una sola tarea.
+
+
+hacerSandwich(){
+	reunirIngredientes()
+	reunirUtenciliosDeCocina ()
+
+}
+
+reunirIngredientes(){
+	Pan(Rebanada, Barra, Blanco, Integral, Trigo, Centeno)
+	aderezo (Mayonesa,crema, mostaza)
+	jamón (pierna, pavo)
+	queso (chihuahua, manchego,gouda)
+	vegetales (lechuga. tomate, cebolla, pepino, pepinillos)
+	picante(Salsa, chile de diversos tipos)
+}
+
+reunirUtenciliosDeCocina (){
+
+}
+
+tomarRebanadasDePan(){
+
+}

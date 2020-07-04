@@ -1,0 +1,15 @@
+contador_sandwiches es cero
+
+while (contador_sandwiches es menor que 5){
+	hacerSandwich();
+	suma uno a contador_sandwiches ()
+
+}
+
+contador_sandwiches_bolonea es cero
+
+while (contador_sandwiches_bolonea es menor que 10){
+	hacerSandwichBolonea();
+	suma uno a contador_sandwiches_bolonea()
+
+}

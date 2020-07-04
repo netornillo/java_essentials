@@ -1,0 +1,45 @@
+realizarLogin(){
+	navegarUrl()
+	validarPaginaInicio()
+	realizarLoginCorrecto()
+}
+
+navegarUrl(){
+	enviar url("https://evening-bastion-49392.herokuapp.com/");
+}
+
+validarPaginaInicio(){
+	validarHomePage("logo","imagen")
+}
+
+realizarLoginCorrecto(){
+
+	validarLogin("ligaLogin")
+	digilenciarFormulario("User","Password")
+	validarLoginCorrecto("")
+}
+
+=====================================================================
+segunda opción
+
+
+probarloginHappyPath(){
+	navegarPagina()
+	verificarElementos()
+	accesarPaginaLogin()
+}
+
+navegarPagina(){
+	IngresarUrl("https://evening-bastion-49392.herokuapp.com/")
+	EsperarCargaPagina(3000)
+}
+
+verificarElemento(){
+	esperarPresentacionImagen(3000)
+	verificarImagenSinatra(Imagen Sinatra)
+	verificaionLoginActibo (activo)
+}
+
+accesarPaginaLogin(){
+
+}

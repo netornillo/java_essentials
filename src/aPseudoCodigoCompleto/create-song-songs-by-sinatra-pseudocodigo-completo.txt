@@ -1,0 +1,67 @@
+
+
+ePseudoCodigo- LikeCancion Sinatra
+
+
+pruebaDarLikeSinatra(){
+	navegarPagina("https://evening-bastion-49392.herokuapp.com/")
+	verificarHomePage();
+	validarListadoCanciones();
+	verificarPaginaSongs();
+	nombreCancion se inicializa con capturaNombreCancion(1)
+	navegarCancion(1);
+	validarNombreCancion(nombre_cancion);
+	numero_likes se inicializa con  obtenerNumeroLikes()
+	darLike()
+	validarNumeroLikes(numero_likes)
+}
+
+
+
+validarNumeroLikes(numero_likes){
+	numero_likes_actual se inicializa con obtenerNumero Likes()
+	if (numero_likes_actual es mayor que el numero _likes){
+		imprimir si se le dio like, exito
+	}else{
+		imprimir no se le dio like, fallo
+	}
+}
+
+numero_obtenerNumeroLikes(){
+	esperar a que aparezca el elemneto a numero de likes
+	texto_likes se saca con obtenerTextoNumeroLikes()
+	extraer el numero que viene en texto_likes
+	numerolikes se inicializa convertirlo a numero
+	return numerolikes
+}
+
+
+navegarCancion(numero_cancion){
+	encontrar la lista de canciones
+	numero_canciones se inicializa con el numero de elementos de la lista
+	if(numero_canciones es menor al numero_cancion){
+		imprimir "No existen Suficientes canciones, falla"
+	}else{
+		obtener el numero de cancion
+		darle click al elemento
+	}
+	obtener el elemento numero_cancion
+	dar clic al elemneto
+
+}
+
+
+verificarPaginaSongs(){
+	esperar a que salga la lista de canciones
+	encontrar la lista canciones
+	numero_canciones se inicializa con el numero de elementos con el numero de canciones de la lista
+	verificar que numero_canciones es mayor que 1
+	verificar que el header diga "Songs"
+	verificar que exista el elemneto "create new song"
+    verificar que hay una liga que contenga la palabra 'log'
+
+}
+
+
+
+
